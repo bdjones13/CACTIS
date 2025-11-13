@@ -5,10 +5,15 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cactis"
 version = "0.0.0"
-description="Compute Dowker Persistence for Dynamical Systems Trajectories"
+description="Coarse-grained Asymmetric Cycles in Time Series"
 readme = "README.md"
 authors = [
-  { name = "Author 1", email = "email1@math.edu" },
+  { name = "Benjamin Jones", email = "jones657@msu.edu"},
+  { name = "Kristin Kurianski", email = "kkurianski@fullerton.edu"},
+  { name = "Miguel Lopez", email="mlopez3@sas.upenn.edu"},
+  { name = "Christopher Potvin", email="cpotvin@warren-wilson.edu"},
+  { name = "Sunia Tanweer", email=tanweer1@msu.edu"},
+  { name = "Tobias Timofeyev", email="tobias.timofeyev@uvm.edu"}
 ]
 requires-python = ">=3.10"
 dependencies = [

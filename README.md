@@ -1,5 +1,7 @@
 # CACTIS
 
+CACTIS: Coarse-grained Asymmetric Cycles in Time Series
+
 # Work in progress
 
 Companion code to a topological data analysis project on dynamics-aware filtrations initiated at the 2024 AMS Mathematics Research Community (MRC) for Climate Science at the Interface Between Topological Data Analysis and Dynamical Systems Theory.

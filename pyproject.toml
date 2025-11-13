@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dowker_trajectories"
+name = "cactis"
 version = "0.0.0"
 description="Compute Dowker Persistence for Dynamical Systems Trajectories"
 readme = "README.md"
@@ -24,8 +24,8 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["dowker_trajectories*"]
+include = ["cactis*"]
 
 
 [tool.setuptools.package-data]
-"dowker_trajectories.Data" = ["**/*.npy", "**/*.txt", "**/*.nc"]
+"cactis.Data" = ["**/*.npy", "**/*.txt", "**/*.nc"]

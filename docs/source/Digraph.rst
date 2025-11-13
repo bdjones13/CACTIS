@@ -4,7 +4,7 @@
 Digraph
 =======
 
-.. currentmodule:: dowker_trajectories
+.. currentmodule:: cactis
 
 For the parent class, see `networkx.DiGraph <https://networkx.org/documentation/stable/reference/classes/digraph.html>`_.
 

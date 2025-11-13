@@ -5,7 +5,7 @@ class CycleGraph(Digraph):
     """
     Directed cycle graph.
 
-    A subclass of dowker_trajectories.Digraph that constructs a consistently oriented directed
+    A subclass of cactis.Digraph that constructs a consistently oriented directed
     cycle on n vertices.
     """
 

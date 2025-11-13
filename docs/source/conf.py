@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'dowker_trajectories'
+project = 'cactis'
 copyright = '2025, Authors'
 author = 'Authors'
 release = '0.0.0'

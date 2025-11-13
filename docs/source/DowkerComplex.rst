@@ -5,7 +5,7 @@ DowkerComplex
 =============
 
 
-.. currentmodule:: dowker_trajectories
+.. currentmodule:: cactis
 
 .. autoclass:: DowkerComplex
    :members: __init__

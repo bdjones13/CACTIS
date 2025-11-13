@@ -5,7 +5,7 @@ CycleGraph
 ==========
 
 
-.. currentmodule:: dowker_trajectories
+.. currentmodule:: cactis
 
 .. autoclass:: CycleGraph
    :members: __init__

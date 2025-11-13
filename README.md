@@ -1,4 +1,4 @@
-# dowker-trajectories
+# CACTIS
 
 # Work in progress
 

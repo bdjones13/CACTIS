@@ -55,9 +55,13 @@ jobs:
     name: Publish TestPyPI
     needs:
       - build_wheels
-      - build_sdist
     runs-on: ubuntu-latest
     if: github.event_name == 'release' && github.event.action == 'published'
+    environment:
+      name: testpypi
+      url: https://test.pypi.org/project/cactis/
+    permissions:
+      id-token: write
     steps:
       - name: download all the dists
         uses: actions/download-artifact@v4
@@ -69,4 +73,3 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           repository-url: https://test.pypi.org/legacy/
-          password: ${{ secrets.testpypi_token }}

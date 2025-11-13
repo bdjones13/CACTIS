@@ -1,9 +1,9 @@
-.. dowker_trajectories documentation master file, created by
+.. cactis documentation master file, created by
    sphinx-quickstart on Fri Oct 17 17:38:57 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-dowker_trajectories documentation
+cactis documentation
 =================================
 
 Add an overview here

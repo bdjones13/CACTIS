@@ -10,15 +10,15 @@ Getting Started
 
 Installation
 ************
-If you have a system compatible with any of the compiled binary wheels listed `here <https://pypi.org/project/dowker-trajectories/>`_, you can just install via ``pip install dowker-trajectories``.
+If you have a system compatible with any of the compiled binary wheels listed `here <https://pypi.org/project/cactis/>`_, you can just install via ``pip install cactis``.
 
 From Source
 ************
 
 Clone the repository from GitHub and pip install locally::
 
-   git clone https://github.com/bdjones13/dowker-trajectories.git
-   cd dowker-trajectories
+   git clone https://github.com/bdjones13/cactis.git
+   cd cactis
    pip install .
 
 

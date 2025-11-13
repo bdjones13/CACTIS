@@ -4,9 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cactis"
-version = "0.0.2"
+version = "0.0.4"
 description="Coarse-grained Asymmetric Cycles in Time Series"
 readme = "README.md"
+license = { file = "LICENSE" }
 authors = [
   { name = "Benjamin Jones", email = "jones657@msu.edu"},
   { name = "Kristin Kurianski", email = "kkurianski@fullerton.edu"},

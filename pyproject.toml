@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cactis"
-version = "0.0.1"
+version = "0.0.2"
 description="Coarse-grained Asymmetric Cycles in Time Series"
 readme = "README.md"
 authors = [

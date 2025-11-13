@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cactis"
-version = "0.0.0"
+version = "0.0.1"
 description="Coarse-grained Asymmetric Cycles in Time Series"
 readme = "README.md"
 authors = [
@@ -12,7 +12,7 @@ authors = [
   { name = "Kristin Kurianski", email = "kkurianski@fullerton.edu"},
   { name = "Miguel Lopez", email="mlopez3@sas.upenn.edu"},
   { name = "Christopher Potvin", email="cpotvin@warren-wilson.edu"},
-  { name = "Sunia Tanweer", email=tanweer1@msu.edu"},
+  { name = "Sunia Tanweer", email="tanweer1@msu.edu"},
   { name = "Tobias Timofeyev", email="tobias.timofeyev@uvm.edu"}
 ]
 requires-python = ">=3.10"

@@ -68,7 +68,7 @@ jobs:
     if: github.event_name == 'release' && github.event.action == 'published'
     environment:
       name: pypi
-      url: https://test.pypi.org/project/cactis/
+      url: https://pypi.org/p/cactis/
     permissions:
       id-token: write
     steps:
@@ -77,8 +77,6 @@ jobs:
         with:
           path: dist
           merge-multiple: true
-      - name: Publish to TestPyPI
+      - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          repository-url: https://test.pypi.org/legacy/
-          verbose: true
+        

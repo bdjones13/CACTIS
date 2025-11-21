@@ -47,4 +47,5 @@ def simulate_lorenz(initial_state, T=50.0, dt=0.01, sigma=10.0, rho=28.0, beta=8
     return ts, traj
 
 def load_lorenz63(initial=[1.3, 1.5, 17.0]):
-    return simulate_lorenz(initial_state=initial)
+    _, traj = simulate_lorenz(initial_state=initial)
+    return traj.T

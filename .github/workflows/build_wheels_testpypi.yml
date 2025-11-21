@@ -1,11 +1,8 @@
 name: Build
 
 on: 
-  # push:
   workflow_dispatch:
-  release:
-    types:
-      - published
+
 
 jobs:
   build_wheels:
@@ -65,7 +62,6 @@ jobs:
       - build_wheels
       - build_sdist
     runs-on: ubuntu-latest
-    if: github.event_name == 'release' && github.event.action == 'published'
     environment:
       name: testpypi
       url: https://test.pypi.org/project/cactis/

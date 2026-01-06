@@ -1,8 +1,10 @@
-.. Trajectory
+.. Trajectory:
 
 ============
 Trajectory
 ============
+
+.. currentmodule:: cactis
 
 The trajectory module is responsible for the binning process to convert a time series to a matrix representing the adjacencies of bins, used as the adjacency matrix of the driected graph. The ``Trajectory`` object stores a time series, and the methods are used to get the coordinates of the bins, compute the one dimensional bin sequence of the time series, and generate the adjacency matrix of the graph. 
 
@@ -39,7 +41,7 @@ This returns the adjacency matrix of the directed graph built on the bins. If th
 The ``bin_centers`` method contributes to the visualization of the directed graphs by locating and returning the center of each bin. 
 
 
-.. currentmodule:: cactis
+
 
 .. autoclass:: Trajectory
    :members: __init__, set_bins, bin_sequence, adjacency, bin_centers, ts
